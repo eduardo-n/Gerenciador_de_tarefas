@@ -4,11 +4,13 @@ import { TarefaService } from './shared';
 import { ListarTarefaComponent } from './listar/listar-tarefa.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { CadastrarTarefaComponent } from './cadastrar';
 
 
 @NgModule({
   declarations: [
-    ListarTarefaComponent
+    ListarTarefaComponent,
+    CadastrarTarefaComponent
   ],
   imports: [
     CommonModule,
